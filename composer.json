@@ -1,0 +1,11 @@
+{
+    "require": {
+        "hybridauth/hybridauth": "3.0.0.*@dev"
+    },
+    "autoload": {
+        "psr-4" : {
+            "App\\" : "App/",
+            "Auth\\" :"App/"
+        }
+    }
+}
