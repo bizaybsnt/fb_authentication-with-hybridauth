@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 23, 2017 at 09:11 AM
+-- Generation Time: Oct 25, 2017 at 11:24 AM
 -- Server version: 5.7.14
 -- PHP Version: 7.0.10
 
@@ -39,14 +39,6 @@ CREATE TABLE `users` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `name`, `password`, `email`, `social_email`, `avatar`, `provider`, `provider_id`, `created`) VALUES
-(1, 'Bizay Basnet', 'bb', 'bsnt@gmail.com', NULL, NULL, NULL, NULL, '2017-10-23 08:33:06'),
-(2, 'Bizay Bizay', NULL, 'kiyoshi.bsnt@gmail.com', NULL, 'https://graph.facebook.com/v2.8/1580052195371916/picture?width=150&height=150', 'facebook', '1580052195371916', '2017-10-23 08:43:23');
-
---
 -- Indexes for dumped tables
 --
 
@@ -66,7 +58,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
