@@ -1,6 +1,7 @@
 {
     "require": {
-        "hybridauth/hybridauth": "3.0.0.*@dev"
+            "hybridauth/hybridauth": "3.0.0.*@dev",
+            "altorouter/altorouter": "1.1.0"
     },
     "autoload": {
         "psr-4" : {
