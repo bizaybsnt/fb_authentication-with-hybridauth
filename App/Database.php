@@ -8,12 +8,7 @@ class Database
 
     public function __construct()
     {
-//        var_dump(__DIR__.'/config.php');
-//        die();
-//        $this->host = $_GLOBAL['database']['host'];
-//        $this->user = $_GLOBAL['database']['user'];
-//        $this->password = $_GLOBAL['database']['pass'];
-//        $this->database = $_GLOBAL['database']['database'];
+
         $this->host = $GLOBALS['database']['host'];
         $this->user = $GLOBALS['database']['user'];
         $this->password = $GLOBALS['database']['password'];
