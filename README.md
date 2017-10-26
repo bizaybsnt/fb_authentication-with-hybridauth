@@ -18,4 +18,5 @@
   - Use `hybrid.sql` to import database
   
 ## Running Application
-  - Run `php -S localhost:8000` command on terminal and visit `localhost:8000` on browser.
+  - Change directory to public folder `cd public` on terminal
+  - Run `php -S localhost:8000` command and visit `localhost:8000` on browser.
